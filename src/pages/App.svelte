@@ -13,7 +13,7 @@
 
       <Word word="ดูหมิ่น" typedWord="ดูหมิ่น" />
       <Word word="ดูหมิ่น" typedWord="ดูหมิ" />
-      <Word word="ดูหมิ่น" typedWord="ดุหมิ้อห" />
+      <Word word="ดูหมิ่น" typedWord="ดุหมิ้ออื่" />
     </div>
   </div>
 </Layout>
