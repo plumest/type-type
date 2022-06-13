@@ -1,15 +1,15 @@
 <script lang="ts">
-  let count: number = 0
+  let count: number = 0;
   const increment = () => {
-    count += 1
-  }
+    count += 1;
+  };
 </script>
 
 <button on:click={increment}>
   Clicks: {count}
 </button>
 
-<style>
+<style lang="scss">
   button {
     font-family: inherit;
     font-size: inherit;
@@ -22,13 +22,13 @@
     width: 200px;
     font-variant-numeric: tabular-nums;
     cursor: pointer;
-  }
 
-  button:focus {
-    border: 2px solid #ff3e00;
-  }
+    &:focus {
+      border: 2px solid #ff3e00;
+    }
 
-  button:active {
-    background-color: rgba(255, 62, 0, 0.2);
+    &:active {
+      background-color: rgba(255, 62, 0, 0.2);
+    }
   }
 </style>
