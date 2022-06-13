@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@400;500;700&family=Roboto+Mono:wght@400;500;700&display=swap');
+@import './colors.scss';
+
+body {
+    font-family: 'Roboto Mono', 'Noto Serif Thai', serif;
+    margin: 0;
+    box-sizing: border-box;
+    color: $text-color;
+    background-color: $backgroud-color;
+}
